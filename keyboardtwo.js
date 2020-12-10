@@ -29,3 +29,6 @@ document.body.addEventListener('keyup', function(event) {
     wordEl.textContent = 'SECRET KEY "' + wordToGuess + '" PRESSED';
   }
 });
+function refreshPage(){
+    window.location.reload();
+};
